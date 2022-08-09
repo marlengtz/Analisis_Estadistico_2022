@@ -1,7 +1,7 @@
 # Análisis Estadístico 2022
-## Programa de Maestría en Ciencias Forestales
+## **Programa de Maestría en Ciencias Forestales**
 
-Repositorio para la clase, laboratorios y tareas
+Repositorio para la clase, laboratorios y **tareas**
 
 
 ## Contenido del curso
