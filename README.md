@@ -17,4 +17,7 @@ Repositorio para la clase, laboratorios y **tareas**
   
   
 ### :date: Semana 3 23/08/2022
-  + :notebook: Importar de datos a R
+  + :notebook: Importar datos a R
+  
+### :date: Semana 4 30/08/2022
+  + :notebook: Descargar base de datos del gobierno
