@@ -30,7 +30,7 @@ s_creciente <- sort(superficie)
 #barplot para grafico de barras en orden creciente
 
 barplot (s_creciente, main = "Sort Creciente", ylab = "Frecuencia",
-         names.arg= c("Pinus", "Mezquite", "Encinos", "Teka", "Juiperos"),
+         names.arg= c("Mezquite", "Encinos", "Juiperos", "Teka", "Pinus"),
          col = "violet")
 
 #sort para orden decreciente
@@ -39,7 +39,7 @@ s_decreciente <- sort (superficie, decreasing = T)
 #barplot para grafico de barras en orden decreciente
 
 barplot (s_decreciente, main = "Sort Decreciente", ylab = "Frecuencia",
-         names.arg= c("Pinus", "Mezquite", "Encinos", "Teka", "Juiperos"),
+         names.arg= c("Pinus", "Teka", "Juiperos", "Encinos", "Mezquite"),
          col = "turquoise1")
 
 #determinar la media de la variable superficie
