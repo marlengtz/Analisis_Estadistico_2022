@@ -80,7 +80,7 @@ pt(azufre.T, df = naz-1)
 shapiro.test(azufre)
 
 #Prueba de comparacion de medias 
-t.test(azufre, mu = 17.5)#mu=media teoretica
+t.test(azufre, mu = 17.5)
 
 #¿Cuál es el valor de p? R= shapiro=0.8654, t.test=0.1893
 #¿Cuáles son los intervalos de confianza al 95%? R= 16.87912, 20.53588
