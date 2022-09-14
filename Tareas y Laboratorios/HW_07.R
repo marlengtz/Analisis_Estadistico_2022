@@ -46,7 +46,9 @@ t.test(costal, mu = 80)
 #¿Cuál es el valor de p? R= Shapiro=0.5815, t.test=0.02264
 #¿Cuántos grados de libertad tiene el experimento? R= df=43
 #¿Cuál es la hipótesis aceptada? R= H1-Hipótesis alternativa
-#¿Existe evidencia de que el valor medio promedio de los costales observados es menor (significativamente) a los que anuncia el producto? R= Si al calcular la media el valor es menor que los 80kg que promete el producto,le faltan 1.08932 kg.
+#¿Existe evidencia de que el valor medio promedio de los costales observados es 
+#menor (significativamente) a los que anuncia el producto? 
+#R= Si al calcular la media el valor es menor que los 80kg que promete el producto,le faltan 1.08932 kg.
 
 
 # EJERCICIO 2 -------------------------------------------------------------
@@ -86,7 +88,9 @@ t.test(azufre, mu = 17.5)
 #¿Cuáles son los intervalos de confianza al 95%? R= 16.87912, 20.53588
 #¿Cuántos grados de libertad tiene el experimento? R= df=39
 #¿Cuál es la hipótesis aceptada? R= H1-Hipótesis alternativa
-#¿Existe evidencia de que el valor medio promedio de las emisiones observadas es mayor (significativamente) a la declarada en los procedimientos de seguridad de la empresa? R= Si es mayor, hay una diferencia a la permitida de 1.2075 toneladas de emisiones de óxido de azufre al año.
+#¿Existe evidencia de que el valor medio promedio de las emisiones observadas es
+#mayor (significativamente) a la declarada en los procedimientos de seguridad de la empresa? 
+#R= Si es mayor, hay una diferencia a la permitida de 1.2075 toneladas de emisiones de óxido de azufre al año.
 
 
 
@@ -96,6 +100,7 @@ t.test(azufre, mu = 17.5)
 temperaturas <- paste0("https://raw.githubusercontent.com/mgtagle/MCF-202_Agosto_2021/main/TEMPAIRE_DIA.csv")
 temp <- read.csv(temperaturas)
 head(temp)
+temp
 
 ntemp <- length(temp$temp_media)
 ntemp
@@ -126,7 +131,9 @@ t.test(temp$temp_media, mu = 24)
 #¿Cuáles son los intervalos de confianza al 95%? R= 23.28216 23.97599
 #¿Cuántos grados de libertad tiene el experimento? R= df=845
 #¿Cual es la hipótesis aceptada? R= H1-Hipótesis alternativa
-#¿Existe evidencia de que el valor medio promedio de las emisiones observadas es mayor (significativamente) a la declarada en los procedimientos de seguridad de la empresa? R= Si, hay 0.37092 grados de diferencia.
+#¿Existe evidencia de que el valor medio promedio de las emisiones observadas es
+#mayor (significativamente) a la declarada en los procedimientos de seguridad de la empresa?
+#R= Si, hay 0.37092 grados de diferencia.
 
 
 
