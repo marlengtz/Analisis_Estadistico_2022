@@ -135,5 +135,3 @@ t.test(temp$temp_media, mu = 24)
 
 
 
-
-
