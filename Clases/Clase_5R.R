@@ -40,9 +40,9 @@ hist(chickwts$weight) #PRIMERO VER LA DISTRIBUCION DE LOS DATOS
 
 shapiro.test(chickwts$weight) #VER SI LOS DATOS PROVIENEN DE UNA DISTRIBUCION NORMAL
 
-t.test(chickwts$weight, mu =300)
+t.test(chickwts$weight, mu =300, alternative = "less")
 #VES LOS GRADOS DE LIBERTAD ES n-1 Y SI DA EL NUMERO CORRECTO ESTA BIEN REALIZADO LA PRUEBA Y PARA VISUALIZAR EL NUMERO DE DATOS ES CON LA FUNCION (length)
-
+# se usa el alternative para decirle si esperas que sea menor o mayor, cuando no se lo pones solo esperas saber la diferencia significativa
 t.test(chickwts$weight, mu =250)
 
 
