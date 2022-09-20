@@ -24,3 +24,6 @@ Repositorio para la clase, laboratorios y **tareas**
   
 ### :date: Semana 5 06/09/2022
   + :notebook: Pruebas de T
+
+### :date: Semana 6 20/09/2022
+  + :notebook: Correlacion y Regresion
