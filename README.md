@@ -14,8 +14,6 @@ Repositorio para la clase, laboratorios y **tareas**
 ### :date: Semana 2 16/08/2022
   + :notebook: Ingreso de datos a R
   
-  
-  
 ### :date: Semana 3 23/08/2022
   + :notebook: Importar datos a R
   
@@ -27,3 +25,7 @@ Repositorio para la clase, laboratorios y **tareas**
 
 ### :date: Semana 6 20/09/2022
   + :notebook: Correlacion y Regresion
+
+### :date: Semana 7 27/09/2022
+  + :notebook: Analisis de Varianza
+  
